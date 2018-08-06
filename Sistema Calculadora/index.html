@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora Humana</title>
+	<!--<script type="text/javascript">
+		function calcular()
+		{
+		//	document.f1.num3 = document.f1.num1 + document.f1.num2;
+			var n1 = Number(document.getElementById('num1').value);
+			var n2 = Number(document.getElementById('num2').value);
+			var res = n1 + n2;
+			document.getElementById('res').value = res;
+		}
+	</script>
+	-->
+</head>
+<body>
+	<header>
+		<center><b>OPERACIONES BASICAS</b></center>
+	</header>
+	<br/>
+	<br/>
+	<center>
+		<section>
+			<form>
+				<input type="text" id="num1" placeholder="Caja 1">
+					<label> 	
+						<select name="op" id="op">
+							<option></option>
+							<option = "1"> +</option>
+							<option = "2">-</option>
+							<option = "3">*</option>
+							<option = "4">/</option>
+						</select>
+					</label>	
+				<input type="text" id="num2" placeholder="caja 2">
+				<label> = </label>
+				<input type="text"id="res" size="100">
+				<section>
+					<br/>
+					<input type="button" value="CALCULAR" onclick="calcular();">
+				</section>
+			</form>
+		</section>
+	</center>
+	<script type="text/javascript" src="utilidades/js/operaciones_basicas.js"></script>
+</body>
+</html>
